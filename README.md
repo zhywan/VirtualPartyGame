@@ -2,19 +2,27 @@
 
 A game application for a group of people to play virtual party games.
 
-![Image of Cher Ami Logo](https://github.com/zhywan/VirtualPartyGame/blob/master/Cher_Ami_logo.png?raw=true)
+<img src="https://github.com/zhywan/VirtualPartyGame/blob/master/Cher_Ami_logo.png?raw=true" width="200">
 
 **Project Title**: *Cher Ami* for social networking via gaming.
 
 **Project Motivation**: The new social experience will lead you from online to offline, and allow you: 1) No longer worry about meeting neighbors you don’t know, and 2) No longer afraid of not meeting the right person.
 
-This is a hackaton project for [2020 UNICODE SC+ Hackathon](https://www.copell.cn/baseInfo?id=13) finished within 36 hours by a team of 4 members.
+This is a hackaton project for [2020 UNICODE SC+ Hackathon](https://www.copell.cn/baseInfo?id=13), finished within 36 hours by a team of 4 members.
 
 **Main Direction**: Promote more natural offline social interaction, and combine online social platforms and social game directions at the same time.
 
-**Programming Languages**: Python, HTML, MySQL
+**Programming Languages**: Python, HTML, MySQL.
 
-**Application Form**: Web application
+**Application Form**: Web application.
+
+Here is [an example of the website interface](https://preview.webflow.com/preview/rachels-ultra-awesome-project-223052?utm_medium=preview_link&utm_source=dashboard&utm_content=rachels-ultra-awesome-project-223052&preview=a92c0e0d1c9b4b43c95f12233fd333bc).
+
+<img src="https://github.com/zhywan/VirtualPartyGame/blob/master/webpages/home_page_1.JPG?raw=true" width="200"><img src="https://github.com/zhywan/VirtualPartyGame/blob/master/webpages/home_page_3.JPG?raw=true" width="200"><img src="https://github.com/zhywan/VirtualPartyGame/blob/master/webpages/home_page_4.JPG?raw=true" width="200"><img src="https://github.com/zhywan/VirtualPartyGame/blob/master/webpages/home_page_5.JPG?raw=true" width="200">
+
+<img src="https://github.com/zhywan/VirtualPartyGame/blob/master/webpages/home_page_2.JPG?raw=true" width="200"><img src="https://github.com/zhywan/VirtualPartyGame/blob/master/webpages/home_page_6.JPG?raw=true" width="200">
+
+<img src="https://github.com/zhywan/VirtualPartyGame/blob/master/webpages/faq_page.JPG?raw=true" width="200"><img src="https://github.com/zhywan/VirtualPartyGame/blob/master/webpages/breakroom_page_large.JPG?raw=true" width="500">
 
 ## **Introduction**:
 
@@ -65,8 +73,6 @@ The innovative 5V5 dating mode, each game room is limited to 5 men and 5 women, 
 Brand new online werewolf killing game experience, through the game, understand the people around you! Play online during the epidemic, and it will be easier to team up offline after the epidemic! 
 
 Don't understand the rules of werewolf killing? No problem, the robot judge will take you step by step!
-
-Here is [an example of the website interface](https://preview.webflow.com/preview/rachels-ultra-awesome-project-223052?utm_medium=preview_link&utm_source=dashboard&utm_content=rachels-ultra-awesome-project-223052&preview=a92c0e0d1c9b4b43c95f12233fd333bc).
 
 ## **Design Framework of the Prototype**
 
