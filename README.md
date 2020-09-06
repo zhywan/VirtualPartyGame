@@ -2,8 +2,7 @@
 
 A game application for a group of people to play virtual party games.
 
-![Image of Cher Ami Logo]
-(https://raw.githubusercontent.com/zhywan/VirtualPartyGame/master/Cher_Ami_logo.png)
+![Image of Cher Ami Logo](https://github.com/zhywan/VirtualPartyGame/blob/master/Cher_Ami_logo.png?raw=true)
 
 **Project Title**: *Cher Ami* for social networking via gaming.
 
