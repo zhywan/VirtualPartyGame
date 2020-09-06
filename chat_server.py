@@ -62,7 +62,7 @@ def startChat():
 
         print(f"Name is: {name}")
         print(f'Info is: {info}')
-        #print(f'Geolocation is: {ip2geo(str(addr[0]))}')
+        print(f'Geolocation is: {ip2geo(str(addr[0]))}')
         # broadcast message 
         broadcastMessage(f"{name} has joined the chat!".encode(FORMAT))
 
@@ -80,7 +80,13 @@ def startChat():
     # method to handle the
 
 def ip2geo(ip):
-    return Ipstack.get(ip, api_key='e3a22cebedfd1a296677b0e532f7bc0d')  # (your Ipstack API key here)
+    if ip.startswith('192.168'):
+        latitude, longtitude = 0, 0
+    else:
+        response = Ipstack.get(ip, api_key='e3a22cebedfd1a296677b0e532f7bc0d')  # (your Ipstack API key here)
+        latitude, longtitude = response.latitude, response.longitude
+    return latitude, longtitude
+
 # incoming messages
 def handle(conn, addr):
     print(f"new connection {addr}")
