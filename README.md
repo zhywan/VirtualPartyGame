@@ -40,7 +40,7 @@ We hope that our website can, like Cher Ami, convey the desire for communication
 
 At the same time, we also hope that Cher Ami can open a channel from online communication to offline communication, so that modern communication channels are no longer limited within one screen.
 
-### Functionalities
+### Functionality
 
 #### Function 1
 
