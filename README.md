@@ -8,7 +8,7 @@ A game application for a group of people to play virtual party games.
 
 **Project Motivation**: The new social experience will lead you from online to offline, and allow you: 1) No longer worry about meeting neighbors you don’t know, and 2) No longer afraid of not meeting the right person.
 
-This is a hackaton project for [2020 UNICODE SC+ Hackathon](https://www.copell.cn/baseInfo?id=13).
+This is a hackaton project for [2020 UNICODE SC+ Hackathon](https://www.copell.cn/baseInfo?id=13) finished within 36 hours by a team of 4 members.
 
 **Main Direction**: Promote more natural offline social interaction, and combine online social platforms and social game directions at the same time.
 
@@ -66,6 +66,8 @@ Brand new online werewolf killing game experience, through the game, understand 
 
 Don't understand the rules of werewolf killing? No problem, the robot judge will take you step by step!
 
+Here is [an example of the website interface](https://preview.webflow.com/preview/rachels-ultra-awesome-project-223052?utm_medium=preview_link&utm_source=dashboard&utm_content=rachels-ultra-awesome-project-223052&preview=a92c0e0d1c9b4b43c95f12233fd333bc).
+
 ## Design Framework of the Prototype
 
 ### User registration
@@ -83,6 +85,52 @@ After the server starts running, it waits until the number of active users excee
 ### Collection of user infomation from the web interface
 
 User can register their account and modify their account through the website interface. And all these information will be saved to a MySQL database.
+
+## Files discription
+
+Cher_Ami_logo.png: logo for the project/appliction.
+
+Hackathon_Project_Final.pptx: presentation slides for the hackathon.
+
+README.md: introduction.
+
+### prototype files (to be improved)
+
+chat_client.py: the client script.
+
+chat_server.py: the server script.
+
+ip_mapper.py: a module used by the server to create a map html file based on Google Map API and other APIs.
+
+map.html: temp file for map module.
+
+user_info.ipynb: ipython notebook file for getting user info from website interface.
+
+狼人杀.ipynb: Ipython notebook file for playing the werewolf killing game (with very basic functions).
+
+### data folder
+
+ip_list.txt: a file to save the ip and port of each connected client.
+
+### webpages folder
+
+home_page_1.JPG: a screenshot of the first part of a demo home page of the web application.
+
+home_page_2.JPG: a screenshot of the second part of a demo home page of the web application.
+
+home_page_3.JPG: a screenshot of the third part of a demo home page of the web application.
+
+home_page_4.JPG: a screenshot of the fourth part of a demo home page of the web application.
+
+home_page_5.JPG: a screenshot of the fifth part of a demo home page of the web application.
+
+home_page_6.JPG: a screenshot of the sixth part of a demo home page of the web application.
+
+breakroom_page.JPG: a screenshot of a demo breakroom page of the web application.
+
+breakroom_page_large.JPG: a screenshot of a demo breakroom page of the web application. (Large version)
+
+faq_page.JPG: a screenshot of a demo FAQ page of the web application.
 
 ## Summary
 
@@ -105,3 +153,5 @@ User can register their account and modify their account through the website int
 * In the future, a scoring mechanism can be added, and users can directly express their likes to other users in the form of sending flowers
 
 * The problems targeted by the product are universal and are gradually highlighted all over the world. The application of Cher Ami can be extended to many countries and regions in the future.
+
+(Team members: Rachel Ren, Zhiyu Wan, Haoran Zheng, Shizhuo Sun)
