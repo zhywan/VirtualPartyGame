@@ -32,7 +32,7 @@ We hope that our website can, like Cher Ami, convey the desire for communication
 
 At the same time, we also hope that Cher Ami can open a channel from online communication to offline communication, so that modern communication channels are no longer limited within one screen.
 
-### Functionality
+### Functionalities
 
 #### Function 1
 
@@ -68,7 +68,7 @@ Don't understand the rules of werewolf killing? No problem, the robot judge will
 
 Here is [an example of the website interface](https://preview.webflow.com/preview/rachels-ultra-awesome-project-223052?utm_medium=preview_link&utm_source=dashboard&utm_content=rachels-ultra-awesome-project-223052&preview=a92c0e0d1c9b4b43c95f12233fd333bc).
 
-## Design Framework of the Prototype
+## **Design Framework of the Prototype**
 
 ### User registration
 
@@ -86,7 +86,7 @@ After the server starts running, it waits until the number of active users excee
 
 User can register their account and modify their account through the website interface. And all these information will be saved to a MySQL database.
 
-## Files discription
+## **Descriptions of Files**
 
 Cher_Ami_logo.png: logo for the project/appliction.
 
@@ -132,7 +132,7 @@ breakroom_page_large.JPG: a screenshot of a demo breakroom page of the web appli
 
 faq_page.JPG: a screenshot of a demo FAQ page of the web application.
 
-## Summary
+## **Summary**
 
 ### Advantages
 
