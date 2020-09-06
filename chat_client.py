@@ -244,7 +244,7 @@ class GUI:
         self.Window.resizable(width=True,
                               height=True)
         self.Window.configure(width=400,
-                              height=450,
+                              height=500,
                               bg="#17202A")
         self.labelHead = Label(self.Window,
                                bg="#17202A",
