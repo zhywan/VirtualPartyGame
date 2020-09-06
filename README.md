@@ -2,6 +2,9 @@
 
 A game application for a group of people to play virtual party games.
 
+![Image of Cher Ami Logo]
+(https://raw.githubusercontent.com/zhywan/VirtualPartyGame/master/Cher_Ami_logo.png)
+
 **Project Title**: *Cher Ami* for social networking via gaming.
 
 **Project Motivation**: The new social experience will lead you from online to offline, and allow you: 1) No longer worry about meeting neighbors you don’t know, and 2) No longer afraid of not meeting the right person.
