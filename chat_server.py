@@ -1,8 +1,9 @@
 # import socket library 
 import socket
-
-# import threading library 
+# import threading library
 import threading
+import json
+from ip2geotools.databases.noncommercial import Ipstack
 
 # Choose a port that is free 
 PORT = 5000
@@ -45,20 +46,23 @@ def startChat():
         # a new connection to the client 
         #  and  the address bound to it  
         conn, addr = server.accept()
-        conn.send("NAME".encode(FORMAT))
         with open('data/ip_list2.txt', 'a') as f:
-            f.write(addr[0]+'\n')
+            f.write(addr[0] + ' ' + str(addr[1]) + '\n')
+
+        conn.send("INFO".encode(FORMAT))
         # 1024 represents the max amount 
         # of data that can be received (bytes) 
-        name = conn.recv(1024).decode(FORMAT)
+        info = json.loads(conn.recv(1024).decode(FORMAT))
 
         # append the name and client 
-        # to the respective list 
+        # to the respective list
+        name = info['name']
         names.append(name)
         clients.append(conn)
 
         print(f"Name is: {name}")
-
+        print(f'Info is: {info}')
+        #print(f'Geolocation is: {ip2geo(str(addr[0]))}')
         # broadcast message 
         broadcastMessage(f"{name} has joined the chat!".encode(FORMAT))
 
@@ -75,7 +79,8 @@ def startChat():
 
     # method to handle the
 
-
+def ip2geo(ip):
+    return Ipstack.get(ip, api_key='e3a22cebedfd1a296677b0e532f7bc0d')  # (your Ipstack API key here)
 # incoming messages
 def handle(conn, addr):
     print(f"new connection {addr}")
